@@ -118,7 +118,6 @@ class Resp<T> implements Serializable{
     public static void main(String[] args) {
         Resp<String> objectResp = new Resp<>();
         objectResp.failed(ErrorCodeEnum.COMMON_TOKEN_ERROR);
-        System.out.println("resp:"+new Gson().toJson(objectResp));
 
     }
 
